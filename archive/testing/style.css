@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+p {
+    padding: 0px 0px 0px 30px;
+    margin: 5px 5px 5px 25px;
+}
+
+.three-dots {
+    padding: 0px 0px 0px 30px;
+    margin: 5px 5px 15px 25px; 
+}
+
+img {
+    padding: 0px 0px 0px 30px;
+    margin: 5px 5px 15px 100px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(120, 0, 84);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 20px;
+    }
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 40px;    
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+a {
+    color: rgb(0, 116, 218);
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+a:visited a:link {
+    color: rgb(0, 80, 149);
+    text-decoration: none;
+}
+
+.list ol, ul, dl {
+    font-style: italic;
+    color: beige;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 0px 0px 30px;
+    margin: 20px 5px 20px 70px;
+}
+
+.list dd {
+    margin: 2px 0px 5px 20px;
+}
+
+.list a:link, a:visited {
+    color:rgb(170, 170, 83);
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.list a:hover, a:active {
+    text-decoration: underline;
+}
+
+#nav {
+    width: fit-content;
+    margin: 50px auto;
+    padding: 20px;
+    border: 3px solid purple;
+    background-color: rgb(25, 25, 25);
+}
+
+#nav p {
+    color: plum;
+    text-shadow: 1px 1px crimson;
+    font-size: 22px;
+    display: inline;
+}
+
+#nav a{
+    color: plum;
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+    margin: 10px;
+    border:rgb(120, 0, 84) groove 10px;
+    display: inline;
+}
+
+#nav a:hover, a:active {
+    border: rgb(170, 0, 119) groove 10px;
+}

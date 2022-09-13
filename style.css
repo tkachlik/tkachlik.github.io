@@ -1,0 +1,83 @@
+body {
+    background-image: url("assets/background.png");
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+p, a {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#nav {
+    background-color: #333333;
+    margin: 0px;
+    padding: 0px 10%;
+    width:80%;
+    height: 35px;
+    position: fixed;
+    top: 0;
+    left:0;
+    display: block;
+}
+
+#nav ul {
+    margin:0px;
+    padding: 0px;
+    list-style-type:none;
+}
+
+#nav li {
+    float: right;
+}
+
+#nav a {
+    display: block;
+    color: #ff0099;
+    font-size: 20px;
+    padding: 6px 20px;;
+}
+
+#nav a:hover, a:active {
+    background-color: black;
+}
+
+.box {
+    margin: 2.5% 0px;
+    padding: 0px 10%;
+    display: block;
+}
+
+#bio h1 {
+    color:black;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#bio h2 {
+    color: #ff0099;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+}
+
+#defs h2 {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#defs h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 30px 0px 0px 0px;
+}
+
+#defs p {
+    margin: 5px 0px;
+}
+
+h6 {
+    text-align: center;
+    font-size: 18px;
+}
